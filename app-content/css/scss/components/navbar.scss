@@ -9,23 +9,37 @@
     margin: auto;
     padding: 25px; 
   }
+
+  ul{
+    float: right;
+    margin: 15px;
+    li>a {
+      white-space: nowrap;
+      color: $dgrey;
+      font-weight: 500;
+      &:hover {
+        color: $blue;
+      }
+    }
+
+  }
+
   .navbar-brand {
     height: auto;
     margin: auto;
     padding: 0px;
   }
-  .navbar-inverse .navbar-nav>li>a {
-    color: $dgrey;
-    font-weight: 500;
-    padding: 0;
-    margin: 5px;
-    &:hover {
-      color: $blue;
-    }
-  }
+
   .main_logo {
-    height: 100px;
-    padding: 20px; 
+    height: 80px;
+    padding: 10px; 
+  }
+
+  #motto {
+    font-family: $serif;
+    position: absolute;
+    bottom: 15px;
+    color: #aaa;
   }
 }
 

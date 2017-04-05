@@ -1,5 +1,6 @@
 /*COLORS*/
 /*FONTS*/
+/*ALIGNMENT*/
 body {
   background-color: #ffffff;
   color: #333; }
@@ -9,7 +10,7 @@ body {
   background-color: #ffffff;
   color: #333;
   letter-spacing: 5px;
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 2px;
   width: 180px;
   transition: background-color 1s ease; }
@@ -31,20 +32,27 @@ body {
     vertical-align: top;
     margin: auto;
     padding: 25px; }
+  #navbar ul {
+    float: right;
+    margin: 15px; }
+    #navbar ul li > a {
+      white-space: nowrap;
+      color: #aaa;
+      font-weight: 500; }
+      #navbar ul li > a:hover {
+        color: #25b6f0; }
   #navbar .navbar-brand {
     height: auto;
     margin: auto;
     padding: 0px; }
-  #navbar .navbar-inverse .navbar-nav > li > a {
-    color: #aaa;
-    font-weight: 500;
-    padding: 0;
-    margin: 5px; }
-    #navbar .navbar-inverse .navbar-nav > li > a:hover {
-      color: #25b6f0; }
   #navbar .main_logo {
-    height: 100px;
-    padding: 20px; }
+    height: 80px;
+    padding: 10px; }
+  #navbar #motto {
+    font-family: "Lora", serif;
+    position: absolute;
+    bottom: 15px;
+    color: #aaa; }
 
 #action {
   height: 600px;
@@ -63,7 +71,7 @@ body {
     margin: auto;
     width: 35%;
     border-radius: 20px;
-    padding: 10px;
+    padding: 30px;
     font-size: 26px;
     color: #aaa;
     background-color: white;
@@ -85,17 +93,34 @@ body {
       outline: none; }
 
 #projects {
-  background-color: white;
-  padding: 60px; }
+  padding-bottom: 200px;
+  background-color: white; }
+  #projects p {
+    margin: 0; }
+  #projects .header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px; }
+  #projects .words {
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 16px; }
+  #projects .name {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600; }
+  #projects .description {
+    margin-top: 5px;
+    margin-bottom: 10px; }
   #projects .logo {
     height: 150px; }
   #projects .project_list {
     list-style-type: none;
-    text-align: center; }
+    text-align: center;
+    margin-top: 50px; }
 
 #approach {
-  height: 800px;
-  background-color: #eee;
-  padding: 20px; }
+  background-color: #eee; }
 
 /*# sourceMappingURL=style.css.map */

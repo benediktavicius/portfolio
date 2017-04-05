@@ -7,3 +7,9 @@ $dgrey: #aaa;
 /*FONTS*/
 $serif: 'Lora', serif;
 $sans-serif: 'Open Sans', sans-serif;
+
+/*ALIGNMENT*/
+@mixin center-vertical() {
+  	margin: auto;
+    width: 50%;
+}
