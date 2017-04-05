@@ -1,0 +1,101 @@
+/*COLORS*/
+/*FONTS*/
+body {
+  background-color: #ffffff;
+  color: #333; }
+
+.more {
+  border: 1px solid #333;
+  background-color: #ffffff;
+  color: #333;
+  letter-spacing: 5px;
+  border-radius: 20px;
+  padding: 2px;
+  width: 180px;
+  transition: background-color 1s ease; }
+  .more:hover {
+    background-color: #25b6f0;
+    color: #ffffff; }
+    .more:hover span {
+      display: none; }
+    .more:hover:after {
+      content: 'MORE!'; }
+
+#navbar {
+  background-color: #fff;
+  border: none;
+  margin: 0; }
+  #navbar .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin: auto;
+    padding: 25px; }
+  #navbar .navbar-brand {
+    height: auto;
+    margin: auto;
+    padding: 0px; }
+  #navbar .navbar-inverse .navbar-nav > li > a {
+    color: #aaa;
+    font-weight: 500;
+    padding: 0;
+    margin: 5px; }
+    #navbar .navbar-inverse .navbar-nav > li > a:hover {
+      color: #25b6f0; }
+  #navbar .main_logo {
+    height: 100px;
+    padding: 20px; }
+
+#action {
+  height: 600px;
+  width: 100%;
+  line-height: 400px;
+  text-align: center;
+  background-image: url("../images/workplace.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  #action p {
+    margin: 0; }
+  #action .front-end-box {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 150%;
+    margin: auto;
+    width: 35%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 26px;
+    color: #aaa;
+    background-color: white;
+    text-align: center; }
+    #action .front-end-box .name {
+      color: #333;
+      font-family: "Lora", serif;
+      font-weight: 600;
+      font-size: 36px; }
+    #action .front-end-box .form-control {
+      background-color: #333;
+      text-align: center;
+      color: #fff;
+      font-size: 26px; }
+    #action .front-end-box .form-control:focus {
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      outline: none; }
+
+#projects {
+  background-color: white;
+  padding: 60px; }
+  #projects .logo {
+    height: 150px; }
+  #projects .project_list {
+    list-style-type: none;
+    text-align: center; }
+
+#approach {
+  height: 800px;
+  background-color: #eee;
+  padding: 20px; }
+
+/*# sourceMappingURL=style.css.map */

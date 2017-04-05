@@ -1,0 +1,19 @@
+<!-- <div id="main-navbar" ng-controller="NavController"> -->
+<nav id="navbar" class="navbar navbar-inverse navbar-static-top" ng-controller="navbarController">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img class="main_logo" src="app-content/images/LB_logo.png" alt="LB logo"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+      <li class="main_hover" ng-repeat="nav in navs"><a href="{{ nav.href }}">{{nav.name}}</a></li>
+      </ul>        
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,25 @@
+body {
+	background-color: #ffffff;
+	color: $dark;
+}
+
+.more {
+	border: 1px solid $dark;
+	background-color: #ffffff;
+	color: #333;
+	letter-spacing: 5px;
+	border-radius: 20px;
+	padding: 2px;
+	width: 180px;
+	transition: background-color 1s ease;
+	&:hover {
+		background-color: $blue;
+		color: #ffffff;
+		span {
+			display: none;
+		}
+		&:after {
+			content: 'MORE!';
+		}			
+	}
+}

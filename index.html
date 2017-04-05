@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio | LB</title>
+	<link rel="stylesheet" type="text/css" href="app-content/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="app-content/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet">
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+	
+	<div ng-include="'app-content/navbar/navbar.view.html'"></div>
+	<div ng-include="'app-content/action/action.view.html'"></div>
+	<div ng-include="'app-content/projects/projects.view.html'"></div>
+	<div ng-include="'app-content/approach/approach.view.html'"></div>
+
+	<!-- Modules -->
+	<script src="app.js"></script>
+
+	<!-- Controllers -->
+	<script src="app-content/js/controllers/projectController.js"></script>
+	<script src="app-content/js/controllers/approachController.js"></script>
+	<script src="app-content/js/controllers/navbarController.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+#action {
+	height: 600px;
+	width: 100%;
+	line-height: 400px;
+	text-align: center;
+	background-image: url("../images/workplace.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	p {
+		margin: 0;
+	}
+	.front-end-box {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 150%;
+		margin: auto;
+		width: 35%;
+		border-radius: 20px;
+		padding: 10px;
+		font-size: 26px;
+		color: $dgrey;
+		background-color: white;
+		text-align: center;
+		.name {
+			color: $dark;
+			font-family: $serif;
+			font-weight: 600;
+			font-size: 36px;
+		}
+		.form-control {
+			background-color: $dark;
+			text-align: center;
+			color: #fff;
+			font-size: 26px;
+		}
+		.form-control:focus {
+			border: none;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			outline: none;
+		}
+	}
+}
+
+
+

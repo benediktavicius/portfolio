@@ -1,0 +1,33 @@
+#navbar {
+  background-color: #fff;
+  border: none;
+  margin:0;
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin: auto;
+    padding: 25px; 
+  }
+  .navbar-brand {
+    height: auto;
+    margin: auto;
+    padding: 0px;
+  }
+  .navbar-inverse .navbar-nav>li>a {
+    color: $dgrey;
+    font-weight: 500;
+    padding: 0;
+    margin: 5px;
+    &:hover {
+      color: $blue;
+    }
+  }
+  .main_logo {
+    height: 100px;
+    padding: 20px; 
+  }
+}
+
+
+
